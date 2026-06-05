@@ -1,7 +1,10 @@
-name: Deploy Storybook
+name: Build Storybook
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   build-storybook:
